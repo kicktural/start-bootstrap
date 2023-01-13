@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(img/bg-masthead.jpg);
+    height: 100vh;
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+
+header nav .logo{
+    float:left ;
+}
+header nav ul{
+    float: right;
+}
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 0% 16px;
+    color: aliceblue;
+    font-size: 18px;
+    transition: .5s;
+}
+header nav ul li a:hover
+{
+    color: rgb(18, 214, 240);
+    background-color: rgba(21, 172, 236, 0.821);
+}
+a {
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container .logo a{
+    color: rgb(14, 222, 250);
+}
+.container .logo a:hover {
+   color:rgb(239, 90, 15);
+}
+
